@@ -1,0 +1,55 @@
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  font-family: cursive;
+}
+
+.register-form-container h1 {
+  font-family: cursive;
+}
+
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  font-family: cursive;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+form {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.register-form-container a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: white;
+}
